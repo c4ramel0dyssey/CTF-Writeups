@@ -9,7 +9,12 @@ I didn't have any idea about RSSI at first. I looked it up and found out that -3
   
 Since the question asks to locate the current position of our main character, I just went straight to reviewing the last two locations on the wifi log. Logically, it must be around that area right? Also, considering the RSSI information, the wifi signal potrayed in those two areas seem pretty strong, meaning that the character were closed to the wifi source.  
 
+![Google map photo.png](https://github.com/c4ramel0dyssey/CTF-Writeups/blob/main/EschatonCTF2026/OSINT/Google%20map%20photo.png)  
 
+Using Google Map, I input those two last locations and found a park nearby.  
+Note that in the instruction, there were some lines saying  
+> ... he went to get some fresh air
 
+This looks like a direct nod that yup the character indeed went to the park = fresh air.  
 
-
+The flag is just the name of the location based on Wikipedia such that: esch{Horniman_Circle_Gardens}
