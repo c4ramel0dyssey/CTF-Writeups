@@ -49,4 +49,8 @@ After some try and error, the winner was:
 SHA256(key + challenge + nonce)
 ```
 
+![auth2.png](https://github.com/c4ramel0dyssey/CTF-Writeups/blob/main/EschatonCTF2026/Crypto/auth2.png)  
 
+Straight up exploiting the live server using the proven combination and yay successful!  
+
+flag: esch{modes-change-security-shadow-viper-2968}
