@@ -1,6 +1,8 @@
 # Payload Writeup  
 
-Just a disclaimer: This writeup is written wayyy beyond the date of the CTF. Which means, I've forgotten most bits of it
+**Difficulty:** Hard
+
+**Disclaimer:** This writeup is written wayyy beyond the date of the CTF. Which means, I've forgotten most bits of it
 and am currently relying on the my past notes. With that being said, you might see some solutions not being explained with much detailed solution.  
 
 ## Flag 1  
@@ -95,3 +97,4 @@ The easy way is to search for "enum" string in Kali and we will be provided with
 
 Or, we can use Ghidra to look into network-related functions in NETAPI32.dll. 
 And then, we can look into the Ghidra's Symbol Tree and analyze the function there.
+
